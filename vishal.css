@@ -1,0 +1,13 @@
+.parent{
+	display: flex;
+	height: 200px;
+}
+
+.item{
+    width: 50px;
+}
+
+.item:nth-child(2) {
+	align-self:stretch;
+	height: auto;
+}
